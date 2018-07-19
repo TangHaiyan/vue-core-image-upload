@@ -60,10 +60,7 @@
 
     computed: {
       name() {
-        if(this.multiple) {
-          return this.inputOfFile + '[]';
-        }
-        return this.inputOfFile;
+        return 'file';
       }
     },
 
